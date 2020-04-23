@@ -1,0 +1,21 @@
+body{
+
+	margin: 0px;
+	padding: 0px;
+
+	background-color: #ddd;
+}
+
+#ball {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+
+    opacity: 10;
+
+    transition: all 0.5s;
+}
